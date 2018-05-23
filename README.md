@@ -27,6 +27,8 @@ This glove is designed to facilitate communication between deaf and dumb people.
      The gloves read out the user-defined common language by recognizing sign language gestures.
    - Speech Recognition<br/>
      The gloves can identify some commonly used words in life to users.
+     
+     ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/age.gif)
    - Danger warning<br/>
      The gloves can alert the user to the vehicle by recognizing the sound of the horn.
      
