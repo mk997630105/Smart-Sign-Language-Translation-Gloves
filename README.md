@@ -33,6 +33,8 @@ This glove is designed to facilitate communication between deaf and dumb people.
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/clump12.gif)
    - One-click assistance<br/>
      When in trouble, users can send their location information to their families for help.
+     
+      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/one.gif)
 ## System Architecture     
  ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/structure.PNG)
 # Hardware and Software Setup
