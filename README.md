@@ -23,7 +23,7 @@ This glove is designed to facilitate communication between deaf and dumb people.
    - Auto play mode<br/>
      The gloves read out the user-defined common language by recognizing sign language gestures.
 ## System Architecture     
- ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/structure.jpg)
+ ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/structure.PNG)
 # Hardware and Software Setup
 ## Required Hardware   
    - 1 DesignWare ARC EM Starter Kit(EMSK)
