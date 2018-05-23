@@ -3,13 +3,13 @@ Intelligent translation of sign language for simple interaction between deaf and
 
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-- [Introduction](#Introduction)
-    - [Function](#Function)
-    - [System Architecture](#System-Architecture)
-- [Hardware and Software Setup](#Hardware-and-Software-Setup)
-    - [Required Hardware](#Required-Hardware)
-    - [Required Software](#Required-Software)
-    - [Hardware Connection](#Hardware-Connection)
+- [Introduction](#introduction)
+    - [Function](#function)
+    - [System Architecture](#system-architecture)
+- [Hardware and Software Setup](#hardware-and-software-setup)
+    - [Required Hardware](#required-hardware)
+    - [Required Software](#required-software)
+    - [Hardware Connection](#hardware-connection)
  <!-- markdown-toc end -->
 
 # Introduction
