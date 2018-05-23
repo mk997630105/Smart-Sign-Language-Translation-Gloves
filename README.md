@@ -29,6 +29,8 @@ This glove is designed to facilitate communication between deaf and dumb people.
      The gloves can identify some commonly used words in life to users.
    - Danger warning<br/>
      The gloves can alert the user to the vehicle by recognizing the sound of the horn.
+     
+      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/clump12.gif)
    - One-click assistance<br/>
      When in trouble, users can send their location information to their families for help.
 ## System Architecture     
