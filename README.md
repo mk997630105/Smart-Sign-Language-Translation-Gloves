@@ -41,7 +41,7 @@ This glove is designed to facilitate communication between deaf and dumb people.
    - Serial port terminal, such as putty, tera-term or minicom
 
 ## Hardware Connection
-   1. The EMSK implement smart gloves,it will 
+   1. The EMSK implement smart gloves,it will processe the data collected by sensors and translate gestures to corresponding sign language, we can get the corresponding sign language information by displaying text and making voice.
       - Connect JY-901 to J1(Using UART interface)
       - Connect SYN6288,PmodAD2 and SIM900A to J4(Using I2C interface)
       - Connect C3-470A to J5(Using UART interface)
