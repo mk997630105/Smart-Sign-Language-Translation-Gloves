@@ -17,9 +17,12 @@ This glove is designed to facilitate communication between deaf and dumb people.
 ## Function
    - Chinese mode<br/>
      The gloves read out the corresponding Chinese by recognizing sign language gestures.
+     
+      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/hello2.gif)
    - English mode<br/>
      The gloves read out the corresponding English letters by recognizing sign language gestures.
-      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/C(2).gif)
+     
+      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/C(3).gif)
    - Auto play mode<br/>
      The gloves read out the user-defined common language by recognizing sign language gestures.
    - Speech Recognition<br/>
