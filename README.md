@@ -1,5 +1,8 @@
 # Smart-Sign-Language-Translation-Gloves
 Intelligent translation of sign language for simple interaction between deaf and dumb people
+
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 - [Introduction](#Introduction)
     - [Function](#Function)
     - [System Architecture](#System-Architecture)
@@ -7,6 +10,7 @@ Intelligent translation of sign language for simple interaction between deaf and
     - [Required Hardware](#Required-Hardware)
     - [Required Software](#Required-Software)
     - [Hardware Connection](#Hardware-Connection)
+ <!-- markdown-toc end -->
 
 # Introduction
 This glove is designed to facilitate communication between deaf and dumb people.
