@@ -3,7 +3,10 @@ Intelligent translation of sign language for simple interaction between deaf and
 - [Introduction](#Introduction)
     - [Function](#Function)
     - [System Architecture](#System-Architecture)
-    
+- [Hardware and Software Setup](#Hardware-and-Software-Setup)
+    - [Required Hardware](#Required-Hardware)
+    - [Required Software](#Required-Software)
+    - [Hardware Connection](#Hardware-Connection)
 
 # Introduction
 This glove is designed to facilitate communication between deaf and dumb people.
@@ -15,9 +18,18 @@ This glove is designed to facilitate communication between deaf and dumb people.
      The gloves read out the corresponding English letters by recognizing sign language gestures.
    - Auto play mode<br/>
      The gloves read out the user-defined common language by recognizing sign language gestures.
-## System Architecture
-     
-# 2
-## 2.1
-## 2.2
-# 3
+## System Architecture     
+# Hardware and Software Setup
+## Required Hardware   
+   - 1 DesignWare ARC EM Starter Kit(EMSK)
+   - 1 Acceleration sensor(MPU6050)
+   - 1 Speech recognition module(SYN6288)
+   - 1 SD Card
+   
+## Required Software
+   - Metaware or ARC GNU Toolset
+   - Serial port terminal, such as putty, tera-term or minicom
+
+## Hardware Connection
+   1. The EMSK implement smart gloves,it will 
+   2. Configure your EMSKs with proper core configuration
