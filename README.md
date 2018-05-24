@@ -38,7 +38,7 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/one.gif)
 ## System Architecture     
- ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/structure.PNG)
+      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/structure.PNG)
 # Hardware and Software Setup
 ## Required Hardware   
    - 1 DesignWare ARC EM Starter Kit(EMSK)
