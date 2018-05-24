@@ -13,7 +13,7 @@ Intelligent translation of sign language for simple interaction between deaf and
  <!-- markdown-toc end -->
 
 # Introduction
-This glove is designed to facilitate communication between deaf and dumb people.
+This **glove** is designed to facilitate communication between deaf and dumb people.
 ## Function
    - Chinese mode<br/>
      The gloves read out the corresponding Chinese by recognizing sign language gestures.
@@ -63,3 +63,7 @@ This glove is designed to facilitate communication between deaf and dumb people.
       - Connect SSD1306 to J2(Using I2C interface)
       - Connect YS-LDV7 to J3
    2. Configure your EMSKs with proper core configuration
+   
+# User manual
+## Before Running This Application
+  Download source code of Master Sign Language from github.
