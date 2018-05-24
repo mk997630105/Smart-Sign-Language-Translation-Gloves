@@ -75,10 +75,17 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
   Here take EMSK2.0 - ARC EM7D with GNU Toolset for example to show how to run this application.We need to use embARC bootloader to automatically load application binary for different EMSK and run. See embARC Secondary Bootloader Example for reference.
 ### Makefile
    - Target options about EMSK and toolchain
-    
-    ```
-    BOARD ?= emsk
-    BD_VER ?= 20
-    CUR_CORE ?= arcem7d
-    TOOLCHAIN ?= gnu
-    ```
+
+```
+         BOARD ?= emsk
+         BD_VER ?= 20
+         CUR_CORE ?= arcem7d
+         TOOLCHAIN ?= gnu
+```
+   - The relative series of the root directory, here the path of the Makefile is .\embARC\example\emsk\sign language/makefile:
+  
+   | folder/file      | Function                           |
+   | ---------------- | ---------------------------------  |
+   | data             | get and deal with data from sensor |
+   | draw             | OLED driver                        |
+   | gprs             | send position information          |
