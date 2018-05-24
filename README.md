@@ -84,6 +84,23 @@ This glove is designed to facilitate communication between deaf and dumb people.
   
 ## Run This Application
   Here take EMSK2.0 - ARC EM7D with GNU Toolset for example to show how to run this application.We need to use embARC bootloader to automatically load application binary for different EMSK and run. See embARC Secondary Bootloader Example for reference.
+  * Modify emsk_init.c (/board/emsk/common/emsk_init.c)
+ ```
+line 107: change 
+	set_pmod_mux(mux_regs, PM1_UR_UART_0 | PM1_LR_SPI_S	\
+				| PM2_I2C_HRI			\
+				| PM3_GPIO_AC			\
+				| PM4_I2C_GPIO_D		\
+				| PM5_UR_SPI_M1 | PM5_LR_GPIO_A	\
+				| PM6_UR_SPI_M0 | PM6_LR_GPIO_A );
+ to 
+ 	set_pmod_mux(mux_regs, PM1_UR_UART_0 | PM1_LR_GPIO_A	\
+				| PM2_I2C_HRI			\
+				| PM3_GPIO_AC			\
+				| PM4_I2C_GPIO_D		\
+				| PM5_UR_SPI_M1 |PM5_LR_SPI_M2	\
+				| PM6_UR_SPI_M0 | PM6_LR_GPIO_A );
+```
 ### Makefile
    - Target options about EMSK and toolchain
 
