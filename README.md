@@ -72,8 +72,17 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
 # User Manual
 ## Before Running This Application
   Download source code of Master Sign Language from github.
+  - The hardware resources are allocated as following table.
   
-## Run This APPlication
+| Hardware Resource  | Functioon                      |
+| ------------------ | -----------------------------  |
+| JY-901             | Acceleration and angle sensor  |
+| Flex2.2            | Flex sensor                    |
+| SYN6288            | Voice composite                |
+| C3-470A            | position                       |
+| SIM900A            | send messages                  |
+  
+## Run This Application
   Here take EMSK2.0 - ARC EM7D with GNU Toolset for example to show how to run this application.We need to use embARC bootloader to automatically load application binary for different EMSK and run. See embARC Secondary Bootloader Example for reference.
 ### Makefile
    - Target options about EMSK and toolchain
