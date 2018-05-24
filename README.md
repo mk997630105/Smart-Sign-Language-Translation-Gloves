@@ -95,9 +95,9 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
   - Driver<br/>
   Placing the drivers' source code in driver folder, you can see there are subfolders for data,judge,draw and gprs drivers. Placing the C source file and header file in the corresponding subfolder.
 
-             | folder/file      | Function                                           |
-             | ---------------- | -------------------------------------------------  |
-             | data             | get and deal with data from sensor                 |
-             | draw             | OLED driver                                        |
-             | gprs             | send position information                          |
-             | judge            | match the collected data with the sample database  |
+| folder/file      | Function                                           |
+| ---------------- | -------------------------------------------------  |
+| data             | get and deal with data from sensor                 |
+| draw             | OLED driver                                        |
+| gprs             | send position information                          |
+| judge            | match the collected data with the sample database  |
