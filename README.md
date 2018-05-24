@@ -10,6 +10,9 @@ Intelligent translation of sign language for simple interaction between deaf and
     - [Required Hardware](#required-hardware)
     - [Required Software](#required-software)
     - [Hardware Connection](#hardware-connection)
+- [User Manual](#user-manual)
+    - [Before Running This Application](#before-running-this-application)
+    - [Run This Application](#run-this-application)
  <!-- markdown-toc end -->
 
 # Introduction
@@ -64,6 +67,18 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
       - Connect YS-LDV7 to J3
    2. Configure your EMSKs with proper core configuration
    
-# User manual
+# User Manual
 ## Before Running This Application
   Download source code of Master Sign Language from github.
+  
+## Run This APPlication
+  Here take EMSK2.0 - ARC EM7D with GNU Toolset for example to show how to run this application.We need to use embARC bootloader to automatically load application binary for different EMSK and run. See embARC Secondary Bootloader Example for reference.
+### Makefile
+   - Target options about EMSK and toolchain
+    
+    ```
+    BOARD ?= emsk
+    BD_VER ?= 20
+    CUR_CORE ?= arcem7d
+    TOOLCHAIN ?= gnu
+    ```
