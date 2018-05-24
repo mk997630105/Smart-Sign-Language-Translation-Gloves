@@ -66,6 +66,8 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
       - Connect SSD1306 to J2(Using I2C interface)
       - Connect YS-LDV7 to J3
    2. Configure your EMSKs with proper core configuration
+   - EMSK connection
+   
    
 # User Manual
 ## Before Running This Application
