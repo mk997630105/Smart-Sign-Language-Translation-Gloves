@@ -16,27 +16,27 @@ Intelligent translation of sign language for simple interaction between deaf and
  <!-- markdown-toc end -->
 
 # Introduction
-This **glove** is designed to facilitate communication between deaf and dumb people.
+This glove is designed to facilitate communication between deaf and dumb people.
 ## Function
-   - Chinese mode<br/>
-     The gloves read out the corresponding Chinese by recognizing sign language gestures.
+   - **Chinese mode**<br/>
+     The gloves read out the corresponding **Chinese by recognizing sign language gestures**.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/hello3.gif)
-   - English mode<br/>
-     The gloves read out the corresponding English letters by recognizing sign language gestures.
+   - **English mode**<br/>
+     The gloves read out the corresponding **English alphabet by recognizing sign language gestures**.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/C(4).gif)
-   - Auto play mode<br/>
-     The gloves read out the user-defined common language by recognizing sign language gestures.
-   - Speech Recognition<br/>
-     The gloves can identify some commonly used words in life to users.
+   - **Auto play mode**<br/>
+     The gloves read out the **user-defined common language** by recognizing sign language gestures.
+   - **Speech Recognition**<br/>
+     The gloves can **identify some commonly used words* in life to users.
      
      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/age.gif)
-   - Danger warning<br/>
+   - **Danger warning**<br/>
      The gloves can alert the user to the vehicle by recognizing the sound of the horn.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/clump12.gif)
-   - One-click assistance<br/>
+   - **One-click assistance**<br/>
      When in trouble, users can send their location information to their families for help.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/one.gif)
