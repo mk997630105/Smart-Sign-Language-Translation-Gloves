@@ -83,9 +83,21 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
          TOOLCHAIN ?= gnu
 ```
    - The relative series of the root directory, here the path of the Makefile is .\embARC\example\emsk\sign language/makefile:
+```
+         #
+         # root dir of embARC
+         #
+         EMBARC_ROOT = ../../..
+         MID_SEL = common u8glib
+```  
+  See embARC Example User Guide, "Options to Hard-Code in the Application Makefile" for more detailed information about Makefile Options
   
-   | folder/file      | Function                           |
-   | ---------------- | ---------------------------------  |
-   | data             | get and deal with data from sensor |
-   | draw             | OLED driver                        |
-   | gprs             | send position information          |
+  - Driver<br/>
+  Placing the drivers' source code in driver folder, you can see there are subfolders for data,judge,draw and gprs drivers. Placing the C source file and header file in the corresponding subfolder.
+
+             | folder/file      | Function                                           |
+             | ---------------- | -------------------------------------------------  |
+             | data             | get and deal with data from sensor                 |
+             | draw             | OLED driver                                        |
+             | gprs             | send position information                          |
+             | judge            | match the collected data with the sample database  |
