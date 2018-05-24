@@ -67,7 +67,7 @@ This **glove** is designed to facilitate communication between deaf and dumb peo
       - Connect YS-LDV7 to J3
    2. Configure your EMSKs with proper core configuration
    - EMSK connection
-   
+   ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/picture/connection.jpg)
    
 # User Manual
 ## Before Running This Application
