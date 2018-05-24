@@ -41,6 +41,10 @@ This glove is designed to facilitate communication between deaf and dumb people.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/one.gif)
 ## System Architecture
+   As shown in the figure below, the system consists of **three parts: inputs, master, and outputs**.
+   - The **inputs** inc;ude **collecting gesture data, sending messages and positioning**.
+   - The **master** is composed of an ARC processor. It mainly performs data processing and matching with a gesture library according to an algorithm, and sends a corresponding command to the output terminal at the same time.
+   - The **outputs** include **sending message,  displaying text by OLED and voicing broadcast**.
    ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/picture/Architecture.PNG)
 # Hardware and Software Setup
 ## Required Hardware   
