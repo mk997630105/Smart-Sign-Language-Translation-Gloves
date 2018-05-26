@@ -21,31 +21,31 @@ The master sign language can help deaf-mute to communicate with normal people.
    - **Chinese mode**<br/>
      The processor recognizes the **Chinese sign language**, then the screen displays the recognition result and at the same time plays the recognition result.
      
-      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/hello3.gif)
+      ![image](https://github.com/mk997630105/Master-Sign-Language/blob/master/Screenshots/Chinese-mode.gif)
    - **English mode**<br/>
      The processor recognizes the **English alphabet** sign language, then the screen displays the recognition result and at the same time plays the recognition result..
      
-      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/C(4).gif)
+      ![image](https://github.com/mk997630105/Master-Sign-Language/blob/master/Screenshots/English-mode.gif)
    - **Auto play mode**<br/>
      The processor recognizes the user's **predefined sign language** and plays a predefined voice.
    - **Voice Recognition**<br/>
      The processor recognizes the **voice of normal people** and displays it on the screen for the deaf-mute to watch.
      
-     ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/age.gif)
+     ![image](https://github.com/mk997630105/Master-Sign-Language/blob/master/Screenshots/Voice-Recognition.gif)
    - **Danger warning**<br/>
      After the processor recognizes the horn sound, the user is alerted to the vehicle in a **vibration** manner.
      
-      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/clump12.gif)
+      ![image](https://github.com/mk997630105/Master-Sign-Language/blob/master/Screenshots/Danger-warning.gif)
    - **One-click assistance**<br/>
      When in trouble, users can send their location information to their families for help.
      
-      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/one.gif)
+      ![image](https://github.com/mk997630105/Master-Sign-Language/blob/master/Screenshots/One-click.gif)
 ## System Architecture
    As shown in the figure below, the system consists of **three parts: input, master, and output**.
    - The **input** include collecting gesture data,recognizing the voice of normal people and positioning the location of the user.
    - The **master** is composed of an ARC processor. It mainly performs data processing and matching with a gesture library according to an algorithm, and sends a corresponding command to the output terminal at the same time.
    - The **output** include senging message to guardian.
-   ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/picture/Architecture.PNG)
+   ![image](https://github.com/mk997630105/Master-Sign-Language/blob/master/Screenshots/Architecture.PNG)
 # Hardware and Software Setup
 ## Required Hardware   
    - 1 DesignWare ARC EM Starter Kit(EMSK)
@@ -71,7 +71,7 @@ The master sign language can help deaf-mute to communicate with normal people.
       - Connect YS-LDV7 to J3
    2. Configure your EMSKs with proper core configuration
    - EMSK connection
-   ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/picture/connection.jpg)
+   ![image](https://github.com/mk997630105/Master-Sign-Language/blob/master/Screenshots/connection.jpg)
    
 # User Manual
 ## Before Running This Application
