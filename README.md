@@ -121,7 +121,7 @@ line 107: change
          EMBARC_ROOT = ../../..
          MID_SEL = common u8glib
 ```  
-  See embARC Example User Guide, "Options to Hard-Code in the Application Makefile" for more detailed information about Makefile Options
+  See [ embARC Example User Guide][40], "Options to Hard-Code in the Application Makefile" for more detailed information about Makefile Options
   
   - Driver<br/>
   Placing the drivers' source code in driver folder, you can see there are subfolders for data,judge,draw and gprs drivers. Placing the C source file and header file in the corresponding subfolder.
@@ -132,3 +132,6 @@ line 107: change
 | draw             | OLED driver                                        |
 | gprs             | send position information                          |
 | judge            | match the collected data with the sample database  |
+
+
+[40]: http://embarc.org/embarc_osp/doc/embARC_Document/html/page_example.html   " embARC Example User Guide"
