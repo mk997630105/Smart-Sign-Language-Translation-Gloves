@@ -12,6 +12,7 @@ This application is designed to help deaf-mute to communicate with normal people
 - [User Manual](#user-manual)
     - [Before Running This Application](#before-running-this-application)
     - [Run This Application](#run-this-application)
+    - [Demo Video](#demo-video)
  <!-- markdown-toc end -->
 
 # Introduction
@@ -132,6 +133,9 @@ line 107: change
 | draw             | OLED driver                                        |
 | gprs             | send position information                          |
 | judge            | match the collected data with the sample database  |
+
+## Demo Video
+[Link](http://v.youku.com/v_show/id_XMzYyNzM2NTc1Mg==.html?spm=a2h3j.8428770.3416059.1)
 
 
 [40]: http://embarc.org/embarc_osp/doc/embARC_Document/html/page_example.html   " embARC Example User Guide"
