@@ -1,6 +1,5 @@
-# Smart-Sign-Language-Translation-Gloves
-Intelligent translation of sign language for simple interaction between deaf and dumb people
-
+# Smart Sign Language Translation Gloves
+This application is designed to help deaf-mute to communicate with normal people,The master sign language can convert sign language into text and display on screen, at the same time the voice broadcast. This application facilitates the communication between deaf-mute and the outside world.
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 - [Introduction](#introduction)
@@ -16,24 +15,24 @@ Intelligent translation of sign language for simple interaction between deaf and
  <!-- markdown-toc end -->
 
 # Introduction
-This glove is designed to facilitate communication between deaf and dumb people.
+The master sign language can help deaf-mute to communicate with normal people.
 ## Function
    - **Chinese mode**<br/>
-     The gloves read out the corresponding **Chinese by recognizing sign language gestures**.
+     The processor recognizes the **Chinese sign language**, then the screen displays the recognition result and at the same time plays the recognition result.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/hello3.gif)
    - **English mode**<br/>
-     The gloves read out the corresponding **English alphabet by recognizing sign language gestures**.
+     The processor recognizes the **English alphabet** sign language, then the screen displays the recognition result and at the same time plays the recognition result..
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/C(4).gif)
    - **Auto play mode**<br/>
-     The gloves read out the **user-defined common language** by recognizing sign language gestures.
-   - **Speech Recognition**<br/>
-     The gloves can **identify some commonly used words** in life to users.
+     The processor recognizes the user's **predefined sign language** and plays a predefined voice.
+   - **Voice Recognition**<br/>
+     The processor recognizes the **voice of normal people** and displays it on the screen for the deaf-mute to watch.
      
      ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/age.gif)
    - **Danger warning**<br/>
-     The gloves can alert the user to the vehicle by recognizing the sound of the horn.
+     After the processor recognizes the horn sound, the user is alerted to the vehicle in a **vibration** manner.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/clump12.gif)
    - **One-click assistance**<br/>
@@ -41,25 +40,25 @@ This glove is designed to facilitate communication between deaf and dumb people.
      
       ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/one.gif)
 ## System Architecture
-   As shown in the figure below, the system consists of **three parts: inputs, master, and outputs**.
-   - The **inputs** inc;ude **collecting gesture data, sending messages and positioning**.
+   As shown in the figure below, the system consists of **three parts: input, master, and output**.
+   - The **input** include collecting gesture data,recognizing the voice of normal people and positioning the location of the user.
    - The **master** is composed of an ARC processor. It mainly performs data processing and matching with a gesture library according to an algorithm, and sends a corresponding command to the output terminal at the same time.
-   - The **outputs** include **sending message,  displaying text by OLED and voicing broadcast**.
+   - The **output** include senging message to guardian.
    ![image](https://github.com/mk997630105/Smart-Sign-Language-Translation-Gloves/blob/master/picture/Architecture.PNG)
 # Hardware and Software Setup
 ## Required Hardware   
    - 1 DesignWare ARC EM Starter Kit(EMSK)
-   - 1 Acceleration sensor(JY-901)
-   - 1 Speech recognition module(SYN6288)
+   - 1 Posture sensor(JY-901)
+   - 1 Voice composite module(SYN6288)
    - 1 AD converter(PmodAD2)
    - 1 OLED display module(SSD1306)
-   - 1 Speech recognition module(YS-LDV7)
+   - 1 Voice recognition module(YS-LDV7)
    - 1 GPS(C3-470A)
    - 1 GPRS(SIM900A)
    - 1 SD Card
    
 ## Required Software
-   - Metaware or ARC GNU Toolset
+   - ARC GNU Toolset
    - Serial port terminal, such as putty, tera-term or minicom
 
 ## Hardware Connection
